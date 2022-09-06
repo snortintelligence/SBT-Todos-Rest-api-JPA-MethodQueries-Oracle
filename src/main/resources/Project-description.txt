@@ -1,0 +1,18 @@
+Refactoring project
+1. Todos [added new props]
+2. TodosRepository 
+   [add custom queries using Method Name prefix: findBy]
+	 
+	 syntax : findBy + pojo class property name	
+   findById(Long id) [OLD]
+   findByTitle(String title)
+   findByAssignedBy(String assignedBy)	
+
+3. TodosController 
+   adding endpoints for 
+   findByTitle(String title)
+   findByAssignedBy(String assignedBy)
+
+@RequestParam() : to read value from client application parameter.
+   
+	  
